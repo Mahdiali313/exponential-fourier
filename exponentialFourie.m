@@ -1,9 +1,9 @@
-% written by Mahdi Senobari
 x = [0:0.005:1];
 
 plot(x,exp(-x),'red','LineWidth',2);hold on;
 legend('exp(-x)')
 
+%%for make movie from photos , uncomment all lines (except this lines)
 
 % for N=25:2:100
 N=10
